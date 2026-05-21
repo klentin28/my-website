@@ -27,5 +27,11 @@ if (contactForm) {
         this.reset();
     });
 }
+function changeImage(imageSrc) {
+    const mainImg = document.getElementById('main-image');
+    if (mainImg) {
+        mainImg.src = imageSrc;
+    }
+}
 
 
